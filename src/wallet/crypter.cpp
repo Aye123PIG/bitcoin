@@ -7,7 +7,7 @@
 #include <crypto/aes.h>
 #include <crypto/sha512.h>
 #include <util/system.h>
-
+// this is my comment
 #include <vector>
 
 int CCrypter::BytesToKeySHA512AES(const std::vector<unsigned char>& chSalt, const SecureString& strKeyData, int count, unsigned char *key,unsigned char *iv) const
